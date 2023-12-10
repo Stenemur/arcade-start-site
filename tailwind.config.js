@@ -8,7 +8,7 @@ export default {
   theme: {
     extend: {
       backgroundImage: {
-        'heroImage': "url('/public/arcade.jpg')",
+        'heroImage': "url('/arcade.jpg')",
       },
       fontFamily: {
         'PressStart2P': ['"Press Start 2P"', 'serif;'],
@@ -16,6 +16,7 @@ export default {
     },
   },
   plugins: [
+    
     require('flowbite/plugin')
   ],
 }
