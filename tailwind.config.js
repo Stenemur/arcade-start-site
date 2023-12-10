@@ -6,7 +6,14 @@ export default {
     "./node_modules/flowbite/**/*.js",
   ],
   theme: {
-    extend: {},
+    extend: {
+      backgroundImage: {
+        'heroImage': "url('/public/arcade.jpg')",
+      },
+      fontFamily: {
+        'PressStart2P': ['"Press Start 2P"', 'serif;'],
+      },
+    },
   },
   plugins: [
     require('flowbite/plugin')
